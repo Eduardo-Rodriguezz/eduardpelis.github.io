@@ -1,0 +1,33 @@
+
+.movies p {
+    text-align: center;
+    font-size: 0.7rem;
+    width: 120px;
+    margin-left: 4px;
+}
+
+.cover {
+    margin: 10px;
+    height: 180px;
+    width: 120px;
+}
+
+.cover img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#logo {
+    height: 70px;
+}
+
+.header {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+    color: #ffffff;
+}
