@@ -23,7 +23,8 @@
     height: 70px;
 }
 
-.header {
+.header h1 {
+    font-size: 1.6rem;
     font-family: 'Anton', sans-serif;
     font-family: 'Kanit', sans-serif;
     font-family: 'Poppins', sans-serif;
