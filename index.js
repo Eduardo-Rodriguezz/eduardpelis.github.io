@@ -1,7 +1,10 @@
 var page = 1;
 
+let numberPage = document.getElementById('pagina-number');
 const btnSiguiente = document.getElementById('siguiente');
 const btnAnterior = document.getElementById('anterior');
+
+
 
 btnSiguiente.addEventListener('click', () => {
     if (page < 37000) {
@@ -46,6 +49,7 @@ const cargarPeli = async() => {
             });             
 
         miContainer.innerHTML = (peliculas);
+        numberPage.innerHTML = `Página ${page}`;
 
         console.log(data);
 
